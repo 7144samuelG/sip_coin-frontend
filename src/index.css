@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*,html,body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.container{
+  max-width: 1280px;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+  justify-content:space-between;
+  width: 100%;
+
+}
+.header .heading{
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+.header .heading .heading_span{
+  color: yellowgreen;
+}
+ .header_right{
+  display:flex ;
+   gap: 3;
+   color: white;
+  font-weight: bolder;
+  font-size: large;
+
+}
+.header_right a{
+  padding-left: 1rem;
+}
+.usher{
+  margin-top: 100px;
+  padding-inline: 3px;
+}
+.usher .usher_header{
+  display: flex;
+  
+  
+}
+.usher .usher_heading{
+  font-size: 4rem;
+  color: yellowgreen;
+  width: 50%;
+  font-family: cursive;
+}
+.usher .usher_header .usher_description{
+  color: white;
+}
+.eco .eco_next{
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+.eco .eco_right{
+  color: yellowgreen;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-family: cursive;
+}
+.usher_body{
+  display: flex;
+  justify-content: space-around;
+}
+.usher_body .usher_icon1{
+  
+  width: 250px;
+  height: 250px;
+}
+.features_hearder{
+  position: relative;
+}
+.features_heading{
+  color: yellowgreen;
+  text-align: center;
+  font-family: cursive;
+}
+.features_img{
+  position: absolute;
+  right: 100px;
+  top: -20px;
+  width: 40px;
+  height: 40px;
+}
+.features_header_description{
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  margin-block: 10px;
+}
+.card{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns:  auto auto;
+  gap: 10px;
+  
+}
+.card_details{
+  display: flex;
+  align-items:center;
+  gap:3;
+  padding:10px;
+
+}
+.card_warp{
+  padding: 5px;
+  border: 1px solid yellowgreen;
+  border-radius:10px;
+}
+.card_details .card_img{
+  width: 150px;
+  height: 150px;
+  border-radius:12px;
+}
+.card_description{
+  margin-left:10px;
+}
+.card_title{
+
+  color:white;
+  margin-bottom: 10px;
+}
+.card_descriptio{
+  
+  color: yellowgreen;
+}
+.roadmap{
+  padding-bottom: 30px;
+}
+.roadmap_heading{
+  text-align: center;
+  color: yellowgreen;
+  font-family: cursive;
+  margin-top: 30px;
+}
+.roadmap_description{
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  margin-top: 30px;
+}
+.roadmap_border{
+  border:1px solid  yellowgreen;
+  margin-top: 40px;
+}
+.roadmap_q{
+  display: flex;
+  padding-top: 20px;
+  gap: 100px;
+}
+.roadmap_q_right{
+  display: flex;
+  width: 50%;
+}
+.q_1{
+  color: yellowgreen;
+  font-size: 3rem;
+}
+
+.q_1_header{
+  color: white;
+ padding-left: 30px;
+ font-family: cursive;
+ font-size: 1.5rem;
+
+}
+.q_1_description{
+  color: white;
+ padding-left: 30px;
+ font-size: 1.5rem;
+ padding-top: 5px;
+
+}
+.roadmap_q_left{
+  width: 50%;
+  background-color: yellowgreen;
+}
+.roadmap_q_left_list{
+display: flex;
+gap:60px;
+
+}
+.roadmap_q_left_list ul li{
+  color: white;
+  list-style:none;
+  padding: 10px;
+}
+.roadmap_q_left_list ul li{
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+
+
+}
+.about_upper{
+  display: flex;
+  align-items: center;
+}
+.about_heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  color: white;
+  font-family: cursive;
+}
+.about_upper_description h1{
+  color: white;
+  font-family: cursive;
+  margin-bottom: 10px;
+}
+.about_upper .about_upper_header{
+  width: 50%;
+}
+.about_upper .about_uppper_description{
+  width: 50%;
+}
+.about_uppper_description h1{
+  color: white;
+}
+.about_upper_des{
+  color:white;
+}
+.about_down{
+  display: flex;
+  justify-content: space-evenly;
+}
+.about_down_decription{
+  width: 45%;
+}
+.about_down_heading{
+  width: 50%;
+  font-family: cursive;
+}
+.about_down_des,.about_down_heading{
+  color:white;
+  text-align: center;
+  padding: 20px;
+  
+  margin-inline:auto;
+
+}
+.about_down_img1{
+  width: 250px;
+  height: 250px;
+}
+.footer h1{
+  text-align: center;
+  padding-block: 10px;
+  color:white;
+}
